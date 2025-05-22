@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Section styling */
+.login-section {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* min-height: 100vh; */
+  min-height: 100vh;
+  height: 59.78vh;
+  margin-top: 28px;
+}
+
+/* Login box styling */
+.login-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid lightgray;
+  /* margin-top: -103px; */
+}
+
+/* Title and subtitle styling */
+.login-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.login-subtitle {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1.5rem;
+}
+
+.login-signin {
+  color: #ff6b00;
+  text-decoration: none;
+}
+
+.login-signin:hover {
+  text-decoration: underline;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+/* Input field styling */
+.form-input {
+  width: 91%;
+  padding: 11px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.form-input:focus {
+  border-color: #ff6b00;
+  box-shadow: 0 0 0 2px rgba(255, 107, 0, 0.3);
+}
+
+/* Input error styling */
+.form-input.error {
+  border-color: #dc3545;
+  box-shadow: none;
+}
+
+/* Button styling */
+.form-button {
+  background: #ff6b00;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 40% !important;
+  margin: 0 auto;
+  margin-top: 0.1rem;
+}
+
+.form-button:hover {
+  background: #e65c00;
+}
+
+/* Link styling */
+.form-link {
+  display: block;
+  margin-top: 1rem;
+  color: #ff6b00;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.form-link:hover {
+  text-decoration: underline;
+}
+
+/* Message styling */
+.form-message {
+  margin-bottom: 1rem;
+  padding: 0.75rem 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+  color: inherit;
+}
+
+.form-message.success {
+  color: #28a745;
+}
+
+.form-message.error {
+  color: #dc3545;
+}
